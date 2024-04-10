@@ -11,6 +11,7 @@
     --secondary-color: #161516;
     --third-color: #850f0f;
     --third-color-t: #840404bc;
+    --font-weight-bold: 700;
 }
 /*estilos del body*/
 body{
@@ -20,13 +21,12 @@ body{
 /*generalidades*/
 h1{
     font-size: 4rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-   
 }
 h2{
     font-size: 2.5rem;
-    font-weight: 700;
+}
+h1,h2{
+    font-weight: --font-weight-bold;
     margin-bottom: 20px;
 }
 /*media querys para dispositivos hasta 800px para el h1 y h2*/
